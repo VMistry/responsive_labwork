@@ -30,3 +30,40 @@ header, .experience {
 	border: 2px solid #E13A63;
 	padding: 10px;
 }
+
+@media screen and (max-width: 825px)  {
+	#headshot {
+		display: in-block;/*Changed*/
+		text-align: center;
+		margin: 50px auto 0;
+		border: none;/*Changed*/
+	}
+
+	header, .experience {
+		border: none;/*Changed*/
+		padding: 0px;
+	}
+	.right{
+		float:left;/*Changed*/
+		width: 100%;/*Changed*/
+		display: in-block;/*Changed*/
+	}
+
+	.left{
+		width: 100%;/*Changed*/
+
+	}
+
+	.left div{
+		width: 100%;
+	}
+
+	.right div{
+		width: 100%;
+	}
+
+	div{
+		text-align: center;
+		width: 80%;/*Changed*/
+	}
+}
